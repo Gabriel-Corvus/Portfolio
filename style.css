@@ -149,6 +149,7 @@ section.especialidades .flex{
     margin-top: 45px;
     border-radius: 10px;
     
+    
 }
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
@@ -160,6 +161,7 @@ section.especialidades .flex{
     font-size: 60px;
     color: #965ae4;
     
+    
 }
 .especialidades .especialidades-box p{
     font-size: 12px;
@@ -168,7 +170,13 @@ section.especialidades .flex{
 .especialidades .especialidades-box h3{
     font-size: 18px;
     margin: 15px 0;
+
     
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
 }
 /* ESTILO SOBRE */
 section.sobre{
