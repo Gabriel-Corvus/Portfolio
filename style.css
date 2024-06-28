@@ -8,6 +8,7 @@
 body{
     background-color: rgb(15, 15, 15);
     height: 100vh;
+    width: 150;
 }
 .interface{
     max-width: 1280px;
@@ -21,7 +22,7 @@ body{
 
 h2.titulo{
     color: #ffffff;
-    font-size: 28px;
+    font-size: 40px;
     text-align: center;
     
 }
@@ -54,9 +55,9 @@ header nav ul{
 
 header nav ul li {
     display: inline-block;
-    padding: 0 45px;
-    font-size: 14px;
-    margin-left: 15px;
+    padding: 0 50px;
+    font-size: 19px;
+    margin-left: 20px;
    
 }
 .btn-contato button{
@@ -93,17 +94,18 @@ section.topo-do-site.flex{
 }
 .topo-do-site h1{
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 40px;
     
 
 }
 .img-topo-site img{
     padding: 20; 
-    width: 500px; 
-    height: 500px; 
+    width: 530px; 
+    height: 530px; 
     float: right;
     margin-top: -130px;
+    margin-left: 50px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
   }
@@ -112,15 +114,16 @@ section.topo-do-site.flex{
   .txt-topo-site p{
     color: rgb(255, 255, 255);
     padding: 0px;
-    margin-top: 30px;
+    margin-top: 20px;
     height: 100px;
-    width: 650px;
+    width: 700px;
     margin-left: 40px;
-    font-size: 14px;
+    font-size: 15px;
     text-align: justify;
   }
 .btn-contato a{
     padding-left: 40px;
+    padding-top: 40px;
 }
 .topo-do-site h1 span{
     color: #965ae4;
@@ -227,4 +230,14 @@ section.sobre{
     transition: .2s;
     box-shadow: 0px 0px 20px #7b31db;
     cursor: pointer;
+}
+/* Container zoom */
+.container {
+    transform: scale(1.2);
+    transform-origin: 0 0;
+}
+/* ESTILO PORTFÓLIO */
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10 px rgba(255, 255, 255, 0.384);
 }
