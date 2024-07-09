@@ -13,7 +13,7 @@ body{
 
 
 .interface{
-    max-width: 1280px;
+    max-width: 1480px;
     margin: 0 auto;
 
 }
@@ -59,7 +59,7 @@ header nav ul li {
     display: inline-block;
     padding: 0 50px;
     font-size: 19px;
-    margin-left: 20px;
+    margin-left: 40px;
    
 }
 .btn-contato button{
@@ -78,7 +78,8 @@ header nav ul li {
     transition: .2s;
 }
 #logoimg{
-    width: 100px;
+    width: 120px;
+    margin-left: -50px;
 }
 #logoimg:hover{
     transform: scale(1.05);
@@ -186,6 +187,8 @@ a {
 /* ESTILO SOBRE */
 section.sobre{
     padding: 130px 4%;
+    margin-left: 350px;
+    
 }
 .img-sobre img{
     height: 350px;
@@ -316,4 +319,36 @@ form .btn-enviar input{
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+}
+/* ESTILO DO RODAPÉ */
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.219);
+}
+.logo-footer img{
+    width: 150px;
+    margin-top: -30px;
+    margin-left: -40px;
+    
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+    padding: 20px 0;
+       
+}
+.borda{
+    border-top: 2px solid #7b31db;
+    
+}
+footer .line-footer p i{
+    color: #965ae4;
+    font-size: 22px;
+    
+    
+}
+footer .line-footer p a{
+    color: #ffffff;
+    margin-top: 25px;
 }
