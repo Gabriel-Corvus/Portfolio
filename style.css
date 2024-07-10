@@ -352,3 +352,122 @@ footer .line-footer p a{
     color: #ffffff;
     margin-top: 25px;
 }
+
+@media screen and (max-width: 1280px) {
+    /* CLASSES GERAIS */
+    .flex{
+        flex-direction: column;
+    }
+    h2.titulo {
+        font-size: 30px;
+    }
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+    .topo-do-site .img-topo-site{
+        margin-right: -40px;
+        
+    }
+    #logoimg {
+        position: relative;
+        right: -200px;
+        height: 150px;
+        width: 150px;
+    }
+
+    /* CABEÇALHO */
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+    /* TOPO DO SITE */
+   
+    section.topo-do-site{
+        padding: 50px 4%;
+    }
+    .topo-do-site h1{
+        
+        font-size: 30px;
+        margin-left: 80px;
+                
+    
+    }
+    .txt-topo-site p{            
+        
+        height: 200px;
+        width: 330px;
+        margin-left: 65px;
+        font-size: 18px;
+        
+      }
+    /* ESTILO DAS ESPECIALIDADES */
+    section.especialidades{
+        padding: 50px 4%;
+        margin-top: -40px;
+        
+    }
+
+    /* ESTILO SOBRE */
+    section.sobre{
+        padding: 60px 4%;
+        margin: auto;
+
+    
+    }
+    .img-sobre img{
+        height: 300px;
+        width:auto;
+        margin: auto;
+        
+    }
+    .txt-sobre p{
+        color: #ffffff;
+        font-size: 15px;
+        padding: 15px 19%;
+        margin: auto;
+        max-width: 600px;
+        text-align: justify;
+        
+        
+    }
+    .txt-sobre h2{
+        color: #ffffff;
+        margin-left: 100px;
+    }
+    .btn-social button{    
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    /* ESTILO PORTFÓLIO */
+    section.portfolio{
+        padding: 120px;
+        box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.219);
+        margin-left: -50px;
+        
+    }
+    section.portfolio .flex{
+        justify-content: space-around;
+        margin-top: 40px;
+        gap: 40px;
+    }
+    section.portfolio .titulo {
+        margin-left: 50px;
+    }
+    /* ESTILO DO RODAPÉ */
+    footer{
+        padding: 60px 4%;
+        box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.219);
+    }
+    .logo-footer img{
+        width: 150px;
+        margin-top: -30px;
+        margin-left: 150px;
+        
+    }
+    footer .btn-social{
+        padding: 10px;
+        display: inline-block;
+        justify-content: center;
+        display: flex;
+        margin-left: -100px;
+    }
+}
